@@ -1,0 +1,5 @@
+NAME                       READY   STATUS    RESTARTS   AGE
+backend-64bb86bf57-fngrq   1/1     Running   0          8m6s
+backend-64bb86bf57-mm22z   1/1     Running   0          8m6s
+frontend-fb88bb559-65spx   1/1     Running   0          8m6s
+frontend-fb88bb559-rdmkb   1/1     Running   0          8m6s

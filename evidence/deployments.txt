@@ -1,0 +1,3 @@
+NAME       READY   UP-TO-DATE   AVAILABLE   AGE
+backend    2/2     2            2           9m41s
+frontend   2/2     2            2           9m41s

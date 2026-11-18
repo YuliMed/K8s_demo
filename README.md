@@ -1,10 +1,10 @@
 # K8s Demo — Two-Tier NGINX Deployment
 
-A Kubernetes deployment demo running two NGINX-based services as separate frontend and backend workloads.
+A Kubernetes deployment demo running two NGINX-based services as separate frontend and bac>
 
 ## What This Does
 
-Deploys a two-tier architecture using public Docker images and standard Kubernetes primitives:
+Deploys a two-tier architecture using public Docker images and standard Kubernetes primiti>
 
 - **Frontend** — `nginx:alpine`, exposed externally via NodePort
 - **Backend** — `nginxdemos/hello`, accessible internally via ClusterIP
@@ -42,15 +42,5 @@ kubectl get pods
 
 ```bash
 # Get the NodePort
-kubectl get service frontend
 
-# On Minikube
-minikube service frontend --url
-```
 
-## Concepts Covered
-
-- Kubernetes Deployments and ReplicaSets
-- Service types: NodePort (external) vs ClusterIP (internal)
-- Multi-tier application separation in Kubernetes
-- Label selectors and pod targeting
